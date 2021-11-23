@@ -1,16 +1,10 @@
 import React from 'react';
 import './style.css';
 
-const AboutMe = () => {
+export default function AboutMe() {
     return (
-        <div>
-
-            <h2>Julian</h2>
-            <h3>Hoping this Works</h3>
+        <div className="AboutMe">
+            <h1>Julian Voros</h1>
         </div>
-            
     );
 }
-
-
-export default AboutMe;

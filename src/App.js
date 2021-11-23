@@ -4,12 +4,16 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container';
 import Footer from "./components/footer";
-import AboutMe from './pages/aboutMe';
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import './App.css';
 
 function App() {
 return (
-  <Router>
+    <Router>
+    {/* Navbar Here */}
 <Navbar className="navbar">
   <Container className="nav-container">
     <Navbar.Brand className="navTitle">Julian Voros</Navbar.Brand>
@@ -21,21 +25,23 @@ return (
       </Nav>
   </Container>
 </Navbar>
+{/* Footer */}
 <Footer/>
+    
 
-
+{/* Routes To Pages */}
 <Switch>
   <Route exact path="/">
-    <h1>About-Me</h1>
+    <AboutMe/>
   </Route>
   <Route exact path="/Portfolio">
-    <h1>Portfolio</h1>
+    <Portfolio/>
   </Route>
   <Route exact path="/Resume">
-    <h1>Resume</h1>
+    <Resume/>
   </Route>
   <Route exact path="/Contact">
-    <h1>Contact</h1>
+    <Contact/>
   </Route>
   
 
@@ -45,5 +51,4 @@ return (
 }
 
 export default App;
-
 
