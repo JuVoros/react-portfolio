@@ -1,8 +1,6 @@
 .Portfolio{
-  background-image: linear-gradient(
-    to bottom right,
-    black 0%, white 40%, black 60%, white 100%
-  );
+  background-color: #023047;
+  
 }
 body {
   margin: 0;

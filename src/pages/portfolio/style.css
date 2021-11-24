@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-    background-color: rgb(228, 4, 4);
+    background-color: #8ECAE6;
     border-radius: 0px 0px 15px 15px;
     margin-bottom: 5px;
     margin-left: 100px;
@@ -18,7 +18,7 @@
     display:flex;
     flex-direction: column;
     text-align: center;
-    background-color: yellow;
+    background-color: #FB8500;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 15px 15px 0px 0px;
@@ -35,7 +35,7 @@
 
 .PContainer {
     display: flex;
-    background-color: lavender;
+    background-color: #219EBC;
     margin-top: 50px;
     border-radius: 10px 10px 10px 10px;
     
@@ -55,11 +55,13 @@
 }
 
 .PCardTitle {
-    background-color: mediumturquoise;
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 10px 10px 10px 10px;
+    font-weight: 800;
+    font-size: 20px;
+    color:#FFB703;
 }
 
 .PImage {
@@ -73,10 +75,30 @@
 .DeployBtn {
     justify-content: center;
     text-decoration: none;
+    border-radius: 0px 0px 0px 0px;
+    padding: 5px;
+    width:auto;
+    background-color: #FFB703;
+    color:#023047;
+
+}
+.DeployBtn2 {
+    justify-content: center;
+    text-decoration: none;
     border-radius: 0px 0px 10px 10px;
     padding: 5px;
     width:auto;
-    background-color: greenyellow;
-    color:purple;
+    background-color: #FD9E02;
+    color:#023047;
 
 }
+
+.DeployBtn:hover {
+    background-color: #023047;
+    color:#8ECAE6;
+}
+.DeployBtn2:hover {
+    background-color:#023047;
+    color:#FFB703;
+}
+

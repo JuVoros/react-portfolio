@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #8ECAE6;
     border-radius: 15px 15px 15px 15px;
     margin-bottom: 5px;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .ContactContainer2 {
@@ -18,7 +18,7 @@
     flex-direction: row;
     justify-content:space-between;
     text-align: center;
-    background-color: rgb(122, 32, 206);
+    background-color: #FD9E02;
     border-radius: 15px 15px 15px 15px;
     margin-left: 20px;
     margin-right: 20px;
@@ -44,7 +44,15 @@
     font-size: larger;
     font-weight: 800;
     color: whitesmoke;
-    background-color: coral;
+    background-color:#126782;
+    margin-top: 50px;
+    padding:5px;
+    border-radius: 15px;
+}
+
+.ContactBtn:hover {
+    background-color: #023047;
+    color: #FB8500;
 }
 
 .ContactTitle {
@@ -55,3 +63,8 @@
 
 }
 
+.Contacts {
+    font-size: 30px;
+    font-weight: 600;
+    color:#023047;
+}
