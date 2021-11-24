@@ -1,0 +1,57 @@
+.ContactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.ContactContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    background-color: rgb(122, 32, 206);
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.ResumeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding-left: 20px;
+    width:300px;
+    height:auto;
+    border-radius: 10px 10px 10px 10px;
+    position: relative; 
+}
+.ContactBtn {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 800;
+    color: whitesmoke;
+    background-color: coral;
+}
+
+.ContactTitle {
+    text-decoration: none;
+    font-size:x-large;
+    font-weight: 1000;
+    color: whitesmoke;
+
+}
+

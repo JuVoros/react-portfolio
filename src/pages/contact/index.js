@@ -1,9 +1,36 @@
 import React from 'react';
+import Github from '/Users/juvoros/Code/Bootcamp/homework/react-portfolio/src/images/github.png';
+import Email from '/Users/juvoros/Code/Bootcamp/homework/react-portfolio/src/images/email.png';
+import Linked from '/Users/juvoros/Code/Bootcamp/homework/react-portfolio/src/images/linkedIn.png';
 import './style.css';
 
-const Contact = () => {
+const Contact= () => {
     return (
-<h1>Contact Me Please</h1>
+        <div className="ContactContainer">
+            <div>
+                <h2>
+                    CONTACTS
+                </h2>
+            </div>
+
+        <div className="ContactContainer2">
+            <section className="PCard">
+                <h3 className="ContactTitle">GitHub</h3>
+                <img src={Github}/>
+                <a href="https://github.com/JuVoros" className="ContactBtn">JuVoros</a>
+            </section>
+            <section className="ResumeCard">
+                <h3 className="ContactTitle">Email</h3>
+                <img src={Email}/>
+                <a href="mailto:JulianVoros@Hotmail.co," className="ContactBtn">JulianVoros@Hotmail.com</a>
+            </section>
+            <section className="PCard">
+                <h3 className="ContactTitle">linkedIn</h3>
+                <img src={Linked}/>
+                <a href="mailto:JulianVoros@Hotmail.co," className="ContactBtn">Julian Voros</a>
+            </section>
+            </div>
+            </div>
     );
 }
 

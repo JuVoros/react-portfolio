@@ -26,7 +26,6 @@ return (
   </Container>
 </Navbar>
 {/* Footer */}
-<Footer/>
     
 
 {/* Routes To Pages */}
@@ -46,9 +45,10 @@ return (
   
 
 </Switch>
+<Footer/>
 </Router>
 );
 }
-
+// Export
 export default App;
 

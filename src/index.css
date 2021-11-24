@@ -1,3 +1,9 @@
+.Portfolio{
+  background-image: linear-gradient(
+    to bottom right,
+    black 0%, white 40%, black 60%, white 100%
+  );
+}
 body {
   margin: 0;
   font-family: 'Roboto Mono', monospace;
