@@ -4,10 +4,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container';
 import Footer from "./components/footer";
-import AboutMe from './pages/AboutMe';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import AboutMe from './pages/AboutMe/index';
+import Portfolio from './pages/Portfolio/index';
+import Contact from './pages/Contact/index';
+import Resume from './pages/Resume/index';
 import './App.css';
 
 function App() {
